@@ -24,7 +24,7 @@ export const Statistics = ({ title, stats }) => {
 };
 
 Statistics.protoTypes = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
   stats: PropTypes.arrayOf(
     PropTypes.exact({
       id: PropTypes.string.isRequired,
